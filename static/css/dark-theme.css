@@ -1,0 +1,16 @@
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-theme a {
+    color: #bb86fc;
+}
+
+body.dark-theme header {
+    background-color: #121212;
+}
+
+body.dark-theme .navbar-icon {
+    color: #ffffff;
+}
