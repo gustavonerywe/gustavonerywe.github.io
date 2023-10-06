@@ -9,8 +9,8 @@ const imgTheme = document.getElementById('img-theme');
 imgTheme.addEventListener('click', () => {
     const currentSrc = imgTheme.getAttribute('src');
 
-    if (currentSrc === 'static/img/night-mode.png') 
-        imgTheme.setAttribute('src', 'static/img/sunny.png');
+    if (currentSrc === 'img/night-mode.png') 
+        imgTheme.setAttribute('src', 'img/sunny.png');
     else 
-        imgTheme.setAttribute('src', 'static/img/night-mode.png');
+        imgTheme.setAttribute('src', 'img/night-mode.png');
 });
