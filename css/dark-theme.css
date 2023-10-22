@@ -5,7 +5,16 @@ body.dark-theme {
 }
 
 body.dark-theme a {
-    color: #bb86fc;
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.2em;
+}
+
+body.dark-theme a:hover{
+    transition: transform ease 0.3s;
+    transform: scale(1.1);
+    color: #9370DB;
 }
 
 body.dark-theme header {
@@ -25,6 +34,12 @@ body.white-theme {
 
 body.white-theme a {
     color: #000;
+}
+
+body.white-theme a:hover{
+    transition: transform ease 0.3s;
+    transform: scale(1.1);
+    color: #24b1e9;
 }
 
 body.white-theme header {

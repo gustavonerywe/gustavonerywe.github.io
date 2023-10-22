@@ -41,6 +41,26 @@ header {
     text-align: center;
 }
 
-#nav-bar{
+#tittle-body{
     margin-bottom: 20px;
+}
+
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 0 auto;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.div-body {
+    display: inline-block;
+    vertical-align: top; /* Isso alinhará o topo das divs */
+}
+
+#tittle-body, #canvas {
+    padding-right: 20px; 
+    padding-left: 20px;
 }
