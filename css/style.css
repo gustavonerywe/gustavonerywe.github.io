@@ -98,3 +98,39 @@ header {
 .p-footer{
     margin-left: 15px;
 }
+
+.about-me-home {
+    list-style-type: none;
+    background-color: #ff0730;
+    border: 1px solid #555;
+    border-radius: 50px 25px 50px 25px;
+    padding: 15px; 
+    color: white; 
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+#about-me-div {
+    display: flex; 
+}
+
+.about-me-content {
+    display: flex; 
+    align-items: center; 
+}
+
+
+figure {
+    width: 50%; 
+    text-align: center; 
+}
+
+figure img{
+    margin-left: 80%;
+    margin-top: 30%;
+}
+
+#ul-about{
+    width: 50%;
+}
