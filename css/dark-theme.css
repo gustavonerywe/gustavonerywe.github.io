@@ -1,4 +1,5 @@
 body.dark-theme {
+    transition: background-color ease 0.5s;
     background-color: #121212;
     color: #ffffff;
 }
@@ -8,6 +9,7 @@ body.dark-theme a {
 }
 
 body.dark-theme header {
+    transition: background-color ease 0.5s;
     background-color: #121212;
 }
 
@@ -16,6 +18,7 @@ body.dark-theme .navbar-icon {
 }
 
 body.white-theme {
+    transition: background-color ease 0.5s;
     background-color: #ffff;
     color: #000;
 }
@@ -25,6 +28,7 @@ body.white-theme a {
 }
 
 body.white-theme header {
+    transition: background-color ease 0.5s;
     background-color: #fff;
 }
 
