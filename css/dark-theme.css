@@ -14,3 +14,20 @@ body.dark-theme header {
 body.dark-theme .navbar-icon {
     color: #ffffff;
 }
+
+body.white-theme {
+    background-color: #ffff;
+    color: #000;
+}
+
+body.white-theme a {
+    color: #000;
+}
+
+body.white-theme header {
+    background-color: #fff;
+}
+
+body.white-theme .navbar-icon {
+    color: #000;
+}
