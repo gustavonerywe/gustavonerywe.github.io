@@ -78,7 +78,7 @@ header {
 }
 
 .li-footer a:hover{
-    color: #bcf325 !important; 
+    color: #07b3b3 !important; 
 }
 
 
@@ -133,4 +133,33 @@ figure img{
 
 #ul-about{
     width: 50%;
+}
+
+#my-img{
+    border-radius: 50%;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    /* height: 50vh; */
+}
+
+#title-page-about-me{
+    text-align: center;
+}
+
+#title-body-container{
+    text-align: center;
+}
+
+.p-about-me {
+    width: 30%;
+    display: inline-block;
+    text-align: justify;
+    margin: 1.5%;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
 }
