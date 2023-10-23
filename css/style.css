@@ -177,6 +177,26 @@ figure img {
     border-radius: 10px;
 }
 
+.download-container{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+#title-curriculo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ul-curriculo{
+    margin: 0 auto;
+}
+
+.li-curriculo{
+    list-style-type: none;
+    margin: 50px;
+}
+
 @media (max-width: 1000px){
     .my-img{
         width: 150px;
