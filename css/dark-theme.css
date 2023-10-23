@@ -60,3 +60,47 @@ body.white-theme .p-about-me {
     padding: 10px;
     border-radius: 10px;
 }
+
+
+@media (max-width: 1000px){
+    body.white-theme  .my-img{
+        width: 150px;
+        height: 150px;
+    }
+
+    body.white-theme .p-about-me{
+        width: 27%;
+        margin-left: 3%;
+    }
+}
+
+@media (max-width: 768px) {
+    body.white-theme  #nav-bar {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    body.white-theme  .p-about-me{
+        width: 27%;
+        margin-left: 3%;
+    }
+
+    body.white-theme .my-img{
+        width: 100px;
+        height: 100px;
+    }
+
+    body.white-theme .div-body {
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    body.white-theme .right-column {
+        order: 1; 
+    }
+
+    body.white-theme  #main-img {
+        width: 100px;
+        height: 100px;
+    }
+}
