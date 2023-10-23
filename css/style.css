@@ -37,14 +37,10 @@ header {
     height: auto; 
 }
 
-#tittle-body{
+#tittle-body {
     text-align: center;
-}
-
-#tittle-body{
     margin-bottom: 20px;
 }
-
 
 #nav-bar {
     display: flex;
@@ -58,29 +54,39 @@ header {
 .div-body {
     display: inline-block;
     vertical-align: top; 
+    margin-left: 3%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-#tittle-body, #canvas {
-    padding-right: 20px; 
-    padding-left: 20px;
+.left-column {
+    flex: 1; 
 }
 
-.li-footer, .p-footer{
+.right-column {
+    flex: 1;
+    padding: 20px; 
+}
+
+#canvas {
+    max-width: 100%;
+}
+
+.li-footer, .p-footer {
     text-decoration: none; 
     display: inline-block;
     font-size: 0.8em;
     color: #555555;
 }
 
-.li-footer a{
+.li-footer a {
     text-decoration: none;
     color: #555555!important;
 }
 
-.li-footer a:hover{
+.li-footer a:hover {
     color: #07b3b3 !important; 
 }
-
 
 #footer-page {
     display: flex;
@@ -91,11 +97,11 @@ header {
     margin: 0 auto;
 }
 
-.li-footer{
+.li-footer {
     margin-left: 40px;
 }
 
-.p-footer{
+.p-footer {
     margin-left: 15px;
 }
 
@@ -110,7 +116,6 @@ header {
     text-align: center;
 }
 
-
 #about-me-div {
     display: flex; 
 }
@@ -120,22 +125,21 @@ header {
     align-items: center; 
 }
 
-
 figure {
     width: 50%; 
     text-align: center; 
 }
 
-figure img{
+figure img {
     margin-left: 80%;
     margin-top: 30%;
 }
 
-#ul-about{
+#ul-about {
     width: 50%;
 }
 
-#my-img{
+#my-img {
     border-radius: 50%;
 }
 
@@ -143,14 +147,13 @@ figure img{
     display: flex;
     justify-content: center; 
     align-items: center;
-    /* height: 50vh; */
 }
 
-#title-page-about-me{
+#title-page-about-me {
     text-align: center;
 }
 
-#title-body-container{
+#title-body-container {
     text-align: center;
 }
 
@@ -162,4 +165,25 @@ figure img{
     border: 1px solid white;
     padding: 10px;
     border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    #nav-bar {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .div-body {
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .right-column {
+        order: 1; 
+    }
+
+    #main-img {
+        width: 100px;
+        height: 100px;
+    }
 }
